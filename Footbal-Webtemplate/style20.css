@@ -1,0 +1,434 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+
+    width: 100%;
+    display: flex;
+    background: linear-gradient(to right, rgb(11, 43, 108), rgb(54, 10, 35));
+    position: fixed;
+    z-index: 1;
+}
+
+.menu {
+    width: 100%;
+    float: right;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    height: 70px;
+}
+
+li {
+    list-style: none;
+    margin-right: 10px;
+    margin-top: 50px;
+    color: white;
+    text-shadow: 2px 3px 3px rgb(255, 0, 0);
+}
+a {
+    list-style: none;
+    margin-right: 10px;
+    margin-top: 50px;
+    color: white;
+    text-shadow: 2px 3px 3px rgb(255, 0, 0);
+}
+
+li:hover {
+    color: rgb(0, 13, 255);
+    transform: scale(0.9);
+    font-size: 25px;
+}
+
+.logo img {
+    width: 230px;
+    height: 75px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.main {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    position: relative;
+    padding-top: 70px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, red, blue);
+    position: relative;
+    padding-top: 70px;
+}
+
+.yazi {
+    width: 30%;
+    color: white;
+
+}
+
+.yazi h1 {
+    text-align: left;
+    margin-bottom: 15px;
+    text-decoration: 2px underline red;
+
+
+}
+
+.yazi p {
+    width: 80%;
+    text-align: left;
+}
+
+.mainfoto img {
+    width: 70%;
+
+}
+
+.shoping {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.shop {
+    width: 90%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.urun {
+    width: 300px;
+    height: 420px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid wheat;
+    background-color: white;
+    text-align: center;
+}
+
+.urun img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px wheat;
+    transition: all 0.9s ease-in-out;
+}
+
+.urun img:hover {
+    transform: scale(0.9);
+}
+
+.urunbilgi {
+    width: 100%;
+    height: 145px;
+}
+
+.urunbilgi h1 {
+    text-decoration: 2px underline rgb(59, 98, 255);
+    margin: 10px 0;
+}
+
+.urunbilgi p {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.urunbilgi button {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    color: red;
+    background-color: gainsboro;
+    cursor: pointer;
+    transition: all 0.9s ease-in-out;
+}
+
+.urunbilgi button:hover {
+    background-color: red;
+    color: white;
+}
+
+.oyuncular {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, red, blue);
+
+}
+
+.baslik {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(48, 48, 113);
+    margin-left: 20px;
+}
+
+.oyuncuic {
+    width: 90%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.oyuncu {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid wheat;
+    background-color: antiquewhite;
+
+}
+
+.oyuncufoto img {
+    width: 140px;
+    height: 180px;
+    float: left;
+    border-radius: 10px;
+    transition: all 0.9s ease-in-out;
+
+}
+
+.oyuncufoto img:hover {
+    transform: scale(1.1);
+
+}
+
+.oyuncubilgi {
+    padding: 15px;
+}
+
+.oyuncubilgi h2 {
+    text-align: left;
+    margin-left: 10px;
+    color: red;
+    border: 5px solid red;
+
+}
+
+.oyuncubilgi p {
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+
+.oyuncubilgi h2:hover {
+    color: black
+}
+
+.haber {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding: 20px;
+}
+
+.haberkutu {
+    width: 70%;
+    float: right;
+    display: flex;
+    margin-top: 90px;
+
+}
+
+.haberbg {
+    width: 30%;
+    float: left;
+
+}
+
+.haberbg img {
+    width: 500px;
+    height: 500px;
+    float: left;
+
+}
+
+.haberkart {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    background: linear-gradient(to right, red, blue);
+    border-radius: 0 10px 50% 0;
+}
+
+.haberfoto img {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px white;
+    background-color: wheat;
+    transition: all 0.9s ease-in-out;
+    margin-left: 25px;
+    border-radius: 0 10px 50% 0;
+}
+
+.haberbilgi {
+    padding: 20px;
+    color: white;
+}
+
+.haberkart:nth-child(2) {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    background: linear-gradient(to left, red, blue);
+    border-radius: 10px 0px 0 50%;
+
+}
+
+.haberkart:nth-child(2) img {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px white;
+    background-color: wheat;
+    transition: all 0.9s ease-in-out;
+    margin-left: 25px;
+    border-radius: 10px 10px 0 50%;
+
+}
+
+.haberbilgi button {
+    margin-top: 30px;
+    padding: 5px 10px;
+    border: none;
+    color: red;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 1.1s ease-in-out;
+}
+
+.haberbilgi button:hover {
+    background-color: red;
+    color: white;
+    box-shadow: 2px 4px 5px rgb(255, 255, 255);
+}
+
+.bilet {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, red, blue);
+
+}
+
+.biletkutu {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid maroon;
+    
+
+
+}
+
+.biletkutu form input {
+    display: block;
+    margin: 10px 0;
+    width: 500px;
+    height: 30px;
+    padding: 0 5px;
+}
+
+.kartzaman select {
+    padding: 5px;
+    font-size: 14px;
+
+}
+
+.biletkutu input[type=submit] {
+    width: auto;
+    padding: 5px 15px;
+
+
+}
+
+.biletkutu label {
+    font-size: 20px;
+    text-decoration: underline red;
+}
+
+.biletkutu input:focus {
+    outline: none;
+    color: blue;
+
+
+
+}
+.footer{
+width: 100%;
+height: 600px;
+background: linear-gradient(to right, rgb(11, 43, 108), rgb(54, 10, 35));
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footerkutu{
+width: 90%;
+height: 500px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.footerkart{
+width: 400px;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.footerlink h4{
+margin: 10px 0;
+
+
+}
+.footerlink h1,p{
+text-align: start;
+margin-left: 20px;
+color: white;
+
+}
+.footerlink h1{
+color: brown;
+margin: 10px 0;
+}
+.footerlink a{
+text-decoration: none;
+text-align: start;
+
+}
